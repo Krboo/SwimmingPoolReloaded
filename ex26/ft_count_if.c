@@ -6,7 +6,7 @@
 /*   By: pmartine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 17:13:48 by pmartine          #+#    #+#             */
-/*   Updated: 2016/11/03 17:15:37 by pmartine         ###   ########.fr       */
+/*   Updated: 2016/11/03 18:11:41 by pmartine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int		ft_count_if(char **tab, int (*f)(char *))
 
 	i = 0;
 	nb = 0;
-	while (tab[i][0] != '0')
+	while (tab[i] != 0)
 	{
 		if (f(tab[i]) == 1)
 			nb++;

@@ -6,7 +6,7 @@
 /*   By: pmartine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 13:33:46 by pmartine          #+#    #+#             */
-/*   Updated: 2016/11/03 13:47:39 by pmartine         ###   ########.fr       */
+/*   Updated: 2016/11/03 18:01:51 by pmartine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@ int		ft_sqrt(int nb)
 	int		prime;
 	int		i;
 
+	i = 0;
 	prime = 1;
 	while (prime < nb)
 	{
